@@ -1,0 +1,23 @@
+Synopsis: Portfolio Website Test Suite
+
+Test Coverage:
+
+1.Page Load and Title:
+ Verify the website loads successfully and the page title contains the word "Portfolio".
+2.Header Validation:
+ Confirm that the main header displays the correct name ("John Doe").
+3.Navigation Links:
+ Check that the navigation bar contains exactly three links labeled "About", "Projects", 
+and "Contact", and that they are visible.
+4.Content Sections:
+
+    1.About Section: Ensure the "About Me" section contains a brief personal description.
+
+    2.Projects Section: Verify that the projects section lists exactly three projects.
+
+    3.Contact Section: Confirm the contact section displays the correct email address.
+
+Footer: Validate the footer displays the copyright information for the current year.
+
+The suite ensures the website's basic structure and content are intact, providing confidence that 
+essential information is available to users and that navigation elements are functioning as expected

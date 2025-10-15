@@ -1,0 +1,20 @@
+Synopsis for Playwright Login Page Test Suite
+
+Test Coverage:
+
+1.Login Form Visibility:
+Verifies that the login page renders correctly, ensuring the presence of the username input, password input, and the login button.
+
+2.Successful Login:
+Simulates entering valid credentials (admin / password123) and submits the form, expecting to see a success message confirming login.
+
+3.Failed Login:
+Tests the login form’s response to invalid credentials, checking that the error message “Invalid credentials” is displayed.
+
+4.Form Submission Without Input:
+Attempts to submit the form without entering any data to verify that no success or error message appears, ensuring proper client-side 
+validation by the browser's required fields.
+
+Purpose:
+To ensure that the login page’s user interface elements are present and that the login functionality behaves as expected for valid and 
+invalid inputs, providing appropriate feedback messages.
