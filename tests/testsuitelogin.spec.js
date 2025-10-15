@@ -10,7 +10,7 @@ test.describe('Login Page Tests', () => {
   });
 
   test('should display login form', async ({ page }) => {
-    await expect(page.locator('text=Login')).toBeVisible();
+    await expect(page.locator('button')).toBeVisible();
     await expect(page.locator('#username')).toBeVisible();
     await expect(page.locator('#password')).toBeVisible();
     await expect(page.locator('button')).toHaveText('Login');
