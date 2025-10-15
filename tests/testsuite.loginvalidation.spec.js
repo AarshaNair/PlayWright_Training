@@ -14,7 +14,7 @@ test.describe('Login Form Validation and UI Behavior', () => {
 
   test('should show error when password is empty', async ({ page }) => {
     await page.fill('#username', 'testuser');
-    await page.click('#login-button');
+    await page.click('#Login');
     const error = await page.locator('#error-message');
     await expect(error).toHaveText('Password is required');
   });
