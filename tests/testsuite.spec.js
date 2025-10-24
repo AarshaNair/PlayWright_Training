@@ -12,8 +12,8 @@ test.describe('Personal Website for Playwright', () => {
     await page.goto('file:///C:/playwright/tests/index%20-%20Portfolio.html');
     
     // Test if the Bio section is navigable
-    //await page.click('text=Bio');
-    //await expect(page).toHaveURL('#bio');
+    await page.click('text=Bio');
+    await expect(page).toHaveURL('#bio');
     
     // Test if the Portfolio section is navigable
     //await page.click('text=Portfolio');
